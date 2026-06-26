@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Ferreira — Marceneiro & Pedreiro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <rect x="4" y="14" width="24" height="4" rx="1" fill="#C8A96E"/>
+          <rect x="13" y="4" width="6" height="24" rx="1" fill="#C8A96E"/>
+          <rect x="8" y="8" width="4" height="4" rx="0.5" fill="#8B6914" opacity="0.8"/>
+          <rect x="20" y="20" width="4" height="4" rx="0.5" fill="#8B6914" opacity="0.8"/>
+        </svg>
+        <span>JF Construções</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato" class="nav-cta">Orçamento</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#contato">Orçamento</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="wood-grain"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag reveal">Marcenaria · Pedreiro · Reformas</p>
+      <h1 class="hero-title reveal">
+        Trabalho feito<br/>
+        <span class="highlight">com as mãos<br/>e com orgulho.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        Mais de 15 anos transformando madeira e concreto em espaços que você ama.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#portfolio" class="btn btn-primary">Ver trabalhos</a>
+        <a href="#contato" class="btn btn-outline">Pedir orçamento</a>
+      </div>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="stat">
+        <span class="stat-num" data-target="350">0</span>
+        <span class="stat-label">Projetos concluídos</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="15">0</span>
+        <span class="stat-label">Anos de experiência</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="98">0</span>
+        <span class="stat-label">% clientes satisfeitos</span>
+      </div>
+    </div>
+    <a href="#sobre" class="scroll-arrow">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 12 15 18 9"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-image reveal">
+          <div class="image-frame">
+            <div class="image-placeholder">
+              <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+                <rect x="10" y="35" width="60" height="10" rx="2" fill="#C8A96E" opacity="0.6"/>
+                <rect x="35" y="10" width="10" height="60" rx="2" fill="#C8A96E" opacity="0.6"/>
+                <circle cx="40" cy="40" r="6" fill="#C8A96E"/>
+              </svg>
+              <p>Sua foto aqui</p>
+            </div>
+            <div class="image-badge">
+              <strong>15+</strong>
+              <span>anos</span>
+            </div>
+          </div>
+        </div>
+        <div class="sobre-text">
+          <p class="section-tag reveal">Quem sou eu</p>
+          <h2 class="section-title reveal">Artesanato, precisão e dedicação em cada obra.</h2>
+          <p class="reveal">
+            Me chamo <strong>João Ferreira</strong>. Comecei minha carreira aos 18 anos como ajudante de pedreiro, aprendi o ofício da marcenaria ao lado do meu pai, e nunca parei de crescer.
+          </p>
+          <p class="reveal">
+            Hoje atendo residências e comércios na região, com foco em <strong>qualidade de material</strong>, <strong>prazo cumprido</strong> e um acabamento que faz diferença.
+          </p>
+          <div class="skills reveal">
+            <div class="skill-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10l5 5 7-8" stroke="#C8A96E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Móveis planejados sob medida
+            </div>
+            <div class="skill-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10l5 5 7-8" stroke="#C8A96E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Reformas e pequenas obras
+            </div>
+            <div class="skill-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10l5 5 7-8" stroke="#C8A96E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Assentamento de pisos e azulejos
+            </div>
+            <div class="skill-item">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10l5 5 7-8" stroke="#C8A96E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Instalações e reparos em geral
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="servicos" id="servicos">
+    <div class="container">
+      <p class="section-tag reveal center">O que eu faço</p>
+      <h2 class="section-title reveal center">Serviços</h2>
+      <div class="servicos-grid">
+
+        <div class="servico-card reveal">
+          <div class="card-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <rect x="6" y="18" width="28" height="5" rx="1.5" fill="#C8A96E"/>
+              <rect x="16" y="6" width="8" height="28" rx="1.5" fill="#C8A96E" opacity="0.7"/>
+              <rect x="10" y="10" width="5" height="5" rx="1" fill="#8B6914"/>
+              <rect x="25" y="25" width="5" height="5" rx="1" fill="#8B6914"/>
+            </svg>
+          </div>
+          <h3>Marcenaria</h3>
+          <p>Móveis sob medida, armários embutidos, bancadas e acabamentos em madeira com alta qualidade e personalização.</p>
+          <span class="card-tag">Sob medida</span>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="card-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <rect x="8" y="28" width="24" height="4" rx="1" fill="#C8A96E"/>
+              <rect x="8" y="22" width="24" height="4" rx="1" fill="#C8A96E" opacity="0.8"/>
+              <rect x="8" y="16" width="24" height="4" rx="1" fill="#C8A96E" opacity="0.6"/>
+              <rect x="8" y="10" width="24" height="4" rx="1" fill="#C8A96E" opacity="0.4"/>
+              <rect x="12" y="8" width="4" height="24" rx="1" fill="#8B6914" opacity="0.5"/>
+              <rect x="24" y="8" width="4" height="24" rx="1" fill="#8B6914" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3>Alvenaria</h3>
+          <p>Construção e demolição de paredes, muretas, rasgos para tubulações e todo tipo de serviço em alvenaria.</p>
+          <span class="card-tag">Reformas</span>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="card-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <rect x="8" y="8" width="10" height="10" rx="1" fill="#C8A96E"/>
+              <rect x="22" y="8" width="10" height="10" rx="1" fill="#C8A96E" opacity="0.7"/>
+              <rect x="8" y="22" width="10" height="10" rx="1" fill="#C8A96E" opacity="0.7"/>
+              <rect x="22" y="22" width="10" height="10" rx="1" fill="#C8A96E"/>
+            </svg>
+          </div>
+          <h3>Pisos e Azulejos</h3>
+          <p>Assentamento de porcelanato, cerâmica, piso laminado e azulejos com rejunte perfeito e nivelamento preciso.</p>
+          <span class="card-tag">Acabamento</span>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="card-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="10" stroke="#C8A96E" stroke-width="3" fill="none"/>
+              <path d="M20 10 L20 6M20 34 L20 30M10 20 L6 20M34 20 L30 20" stroke="#C8A96E" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="20" cy="20" r="3" fill="#C8A96E"/>
+            </svg>
+          </div>
+          <h3>Reparos Gerais</h3>
+          <p>Pequenos consertos, troca de torneiras, portas emperradas, pintura, drywall e manutenção preventiva.</p>
+          <span class="card-tag">Rápido</span>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="card-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path d="M10 30 L20 10 L30 30" stroke="#C8A96E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <line x1="13" y1="24" x2="27" y2="24" stroke="#C8A96E" stroke-width="3" stroke-linecap="round"/>
+              <line x1="20" y1="10" x2="20" y2="6" stroke="#8B6914" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Telhados e Coberturas</h3>
+          <p>Manutenção, impermeabilização e pequenas reformas em telhados e coberturas de madeira ou alvenaria.</p>
+          <span class="card-tag">Impermeabilização</span>
+        </div>
+
+        <div class="servico-card reveal">
+          <div class="card-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <rect x="12" y="8" width="16" height="24" rx="2" stroke="#C8A96E" stroke-width="3" fill="none"/>
+              <rect x="16" y="12" width="8" height="6" rx="1" fill="#C8A96E" opacity="0.6"/>
+              <circle cx="26" cy="20" r="2" fill="#C8A96E"/>
+            </svg>
+          </div>
+          <h3>Portas e Janelas</h3>
+          <p>Instalação, troca e reparo de portas, janelas, batentes e dobradiças. Trabalho em madeira maciça ou MDF.</p>
+          <span class="card-tag">Instalação</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <p class="section-tag reveal center">Trabalhos realizados</p>
+      <h2 class="section-title reveal center">Portfólio</h2>
+      <div class="portfolio-filter reveal">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="marcenaria">Marcenaria</button>
+        <button class="filter-btn" data-filter="alvenaria">Alvenaria</button>
+        <button class="filter-btn" data-filter="pisos">Pisos</button>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <div class="portfolio-item reveal" data-category="marcenaria">
+          <div class="portfolio-img">
+            <div class="img-placeholder">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="8" y="20" width="32" height="8" rx="2" fill="#C8A96E" opacity="0.5"/><rect x="20" y="8" width="8" height="32" rx="2" fill="#C8A96E" opacity="0.5"/></svg>
+              <span>Adicione sua foto</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Armário embutido — quarto casal</h4>
+            <p>Marcenaria</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-category="alvenaria">
+          <div class="portfolio-img">
+            <div class="img-placeholder">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="8" y="30" width="32" height="5" rx="1" fill="#C8A96E" opacity="0.5"/><rect x="8" y="22" width="32" height="5" rx="1" fill="#C8A96E" opacity="0.4"/><rect x="8" y="14" width="32" height="5" rx="1" fill="#C8A96E" opacity="0.3"/></svg>
+              <span>Adicione sua foto</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Parede meia-altura — sala de estar</h4>
+            <p>Alvenaria</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-category="pisos">
+          <div class="portfolio-img">
+            <div class="img-placeholder">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="13" height="13" rx="1" fill="#C8A96E" opacity="0.5"/><rect x="27" y="8" width="13" height="13" rx="1" fill="#C8A96E" opacity="0.4"/><rect x="8" y="27" width="13" height="13" rx="1" fill="#C8A96E" opacity="0.4"/><rect x="27" y="27" width="13" height="13" rx="1" fill="#C8A96E" opacity="0.5"/></svg>
+              <span>Adicione sua foto</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Porcelanato 90×90 — cozinha</h4>
+            <p>Pisos</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-category="marcenaria">
+          <div class="portfolio-img">
+            <div class="img-placeholder">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="8" y="20" width="32" height="8" rx="2" fill="#C8A96E" opacity="0.5"/><rect x="20" y="8" width="8" height="32" rx="2" fill="#C8A96E" opacity="0.5"/></svg>
+              <span>Adicione sua foto</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Bancada de madeira — escritório</h4>
+            <p>Marcenaria</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-category="alvenaria">
+          <div class="portfolio-img">
+            <div class="img-placeholder">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="8" y="30" width="32" height="5" rx="1" fill="#C8A96E" opacity="0.5"/><rect x="8" y="22" width="32" height="5" rx="1" fill="#C8A96E" opacity="0.4"/><rect x="8" y="14" width="32" height="5" rx="1" fill="#C8A96E" opacity="0.3"/></svg>
+              <span>Adicione sua foto</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Reforma banheiro completa</h4>
+            <p>Alvenaria</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" data-category="pisos">
+          <div class="portfolio-img">
+            <div class="img-placeholder">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="13" height="13" rx="1" fill="#C8A96E" opacity="0.5"/><rect x="27" y="8" width="13" height="13" rx="1" fill="#C8A96E" opacity="0.4"/><rect x="8" y="27" width="13" height="13" rx="1" fill="#C8A96E" opacity="0.4"/><rect x="27" y="27" width="13" height="13" rx="1" fill="#C8A96E" opacity="0.5"/></svg>
+              <span>Adicione sua foto</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Piso laminado — quarto de criança</h4>
+            <p>Pisos</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="depoimentos" id="depoimentos">
+    <div class="container">
+      <p class="section-tag reveal center">O que dizem</p>
+      <h2 class="section-title reveal center">Depoimentos</h2>
+      <div class="depo-grid">
+
+        <div class="depo-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"O João fez o armário do nosso quarto e ficou perfeito. Prazo cumprido, madeira de qualidade e preço justo. Já recomendei para vários amigos."</p>
+          <div class="depo-author">
+            <div class="author-avatar">M</div>
+            <div>
+              <strong>Maria S.</strong>
+              <span>Cliente — São Paulo, SP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="depo-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Reformou meu banheiro inteiro em 5 dias. Assentamento impecável, limpeza no final do serviço e ainda deu algumas dicas de manutenção. Super recomendo!"</p>
+          <div class="depo-author">
+            <div class="author-avatar">R</div>
+            <div>
+              <strong>Roberto L.</strong>
+              <span>Cliente — Guarulhos, SP</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="depo-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Profissional dedicado e honesto. Fez o piso da minha sala e foi além do combinado. Com certeza vou chamá-lo novamente para a reforma da cozinha."</p>
+          <div class="depo-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <strong>Ana P.</strong>
+              <span>Cliente — Osasco, SP</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato">
+    <div class="container">
+      <div class="contato-grid">
+        <div class="contato-info">
+          <p class="section-tag reveal">Fale comigo</p>
+          <h2 class="section-title reveal">Vamos conversar sobre o seu projeto?</h2>
+          <p class="reveal">Envie uma mensagem, me ligue ou chame no WhatsApp. Respondo no mesmo dia.</p>
+          <div class="contact-items reveal">
+            <a href="tel:+5511988582495" class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 3h4l2 5-2.5 1.5c1 2 3 4 5 5L13 12l5 2v4c0 1-1 2-2 2C7 19 1 13 1 5c0-1 1-2 2-2z" stroke="#C8A96E" stroke-width="1.5" fill="none"/></svg>
+              </div>
+              <div>
+                <strong>Telefone / WhatsApp</strong>
+                <span>(11) 99999-9999</span>
+              </div>
+            </a>
+            <a href="mailto:joao@jfconstrucoes.com.br" class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="4" width="16" height="12" rx="2" stroke="#C8A96E" stroke-width="1.5"/><path d="M2 7l8 5 8-5" stroke="#C8A96E" stroke-width="1.5"/></svg>
+              </div>
+              <div>
+                <strong>E-mail</strong>
+                <span>joao@jfconstrucoes.com.br</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="8" r="3" stroke="#C8A96E" stroke-width="1.5"/><path d="M10 2C6.7 2 4 4.7 4 8c0 5 6 10 6 10s6-5 6-10c0-3.3-2.7-6-6-6z" stroke="#C8A96E" stroke-width="1.5" fill="none"/></svg>
+              </div>
+              <div>
+                <strong>Atendimento</strong>
+                <span>Grande São Paulo</span>
+              </div>
+            </div>
+          </div>
+          <a href="https://wa.me/5511988582495?text=Ol%C3%A1%20Jo%C3%A3o%2C%20gostaria%20de%20um%20or%C3%A7amento!" target="_blank" class="btn btn-whatsapp reveal">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 2C6.03 2 2 6.03 2 11c0 1.6.42 3.1 1.14 4.42L2 20l4.72-1.12A9 9 0 1 0 11 2z" fill="#25D366"/><path d="M8 7.5c.2.5 1.3 2.5 1.5 2.7.2.3 0 .6-.2.8-.2.2-.5.5-.4.7.1.3 1.1 1.7 2.3 2.5 1.2.8 1.5.6 1.8.5.3-.1.8-.5 1-.4.2.1.8.4.9.5.1.1.1.4 0 .7-.1.3-.8 1-1.3 1-.5 0-1.3-.1-3-1.2-1.7-1.1-2.8-2.7-3-3-.2-.3-.8-1.2-.8-2.3 0-1.1.5-1.6.7-1.8.2-.2.4-.3.6-.3h.4c.1 0 .2.1.3.4l.2.9z" fill="white"/></svg>
+            Chamar no WhatsApp
+          </a>
+        </div>
+
+        <form class="contato-form reveal" id="contactForm">
+          <h3>Enviar mensagem</h3>
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" placeholder="João da Silva" required />
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" />
+          </div>
+          <div class="form-group">
+            <label for="servico">Tipo de serviço</label>
+            <select id="servico" name="servico">
+              <option value="">Selecione...</option>
+              <option>Marcenaria / Móveis</option>
+              <option>Alvenaria / Reforma</option>
+              <option>Pisos e Azulejos</option>
+              <option>Reparos Gerais</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Descreva o serviço</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte um pouco sobre o que precisa..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full">Enviar mensagem</button>
+          <p class="form-note">* O formulário envia direto para o WhatsApp.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+              <rect x="4" y="14" width="24" height="4" rx="1" fill="#C8A96E"/>
+              <rect x="13" y="4" width="6" height="24" rx="1" fill="#C8A96E"/>
+            </svg>
+            <span>JF Construções</span>
+          </a>
+          <p>Marcenaria e pequenas obras com qualidade e dedicação.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 JF Construções. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
